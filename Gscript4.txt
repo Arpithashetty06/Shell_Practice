@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+name1="Anu"
+name2="Manu"
+name3="Dhanu"
+name4="Thanu"
+echo "the following names are list of my friends"
+echo"-----------------------------------"
+echo $name1
+echo $name2
+echo $name3
+echo $name4
+echo"-----------------------------------"
