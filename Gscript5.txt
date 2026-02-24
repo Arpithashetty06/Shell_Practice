@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Please eneter your name and age"
-read name
-read age
-echo "the users is $name and $age"
-
