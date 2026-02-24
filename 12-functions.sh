@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#set -e
+#set -x
 USERID=$(id -u)
 
 # Function to check root user

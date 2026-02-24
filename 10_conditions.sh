@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#set -e
+#set -x
 NUMBER=$1
 
 if [ "$NUMBER" -le 30 ]
