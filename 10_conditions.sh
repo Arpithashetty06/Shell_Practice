@@ -1,10 +1,10 @@
 #!/bin/bash
 
-Number=$1
+NUMBER=$1
 
-if [ $Number -ge 100 ]
+if [ "$NUMBER" -le 30 ]
 then
-  echo "givern Number : $Number  is greater than  or equal to 100"
+    echo "Given number: $NUMBER is less than or equal to 30"
 else
-  echo "givern Number : $Number  is less than  or not equal to 100"
+    echo "Given number: $NUMBER is greater than 30"
 fi
